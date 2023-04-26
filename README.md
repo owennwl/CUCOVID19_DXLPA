@@ -12,7 +12,7 @@ The dataset consists of 248 COVID-19 patients in Hong Kong.
 
 2. **Linear Models**: Two linear models were created using LM() in R to predict WHODAS impairment.
    - Model 1 predictors: demographic variables, history of mental disorder, and average symptom scores.
-   - Model 2 predictors: latent profiles.
+   - Model 2 predictors: demographic variables, history of mental disorder, and latent profiles.
 
 3. **Machine Learning Classifiers**: Logistic regression and random forest models were built using sklearn in Python to differentiate profile pairs based on 51 unweighted individual symptom scores.
 
